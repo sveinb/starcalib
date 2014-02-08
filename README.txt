@@ -5,10 +5,6 @@ Lens calibration program using the night sky as calibration target. Useful for c
 wide-angle lenses, particularly when it is undesireable to refocus the lens after
 calibration, which precludes the use of indoor calibration targets.
 
-Usage: Take a long exposure of the night sky (~ 30 sec) and save it in pnm format. The program
-will automatically identify the stars in the image using a database of known star positions.
-The deviations from the ideal positions are then used to calibrate the lens.
-
 Usage: starcalib [OPTION] file.pnm
 
 Calibrates a camera and optics by matching an image of the night sky against a star
