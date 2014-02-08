@@ -1,5 +1,7 @@
 #include "hipp8.h"
 
+// Star catalogue from ESA's Hipparcos mission, the 4993 brightest stars
+
 struct star star[]={
 {0.00469656,-0.851893,5.71,{0.658552,-0.00309295,-0.752528},0},
 {0.00582643,-0.878553,5.53,{0.638255,-0.00371879,-0.769816},0},
